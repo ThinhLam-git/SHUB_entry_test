@@ -16,6 +16,7 @@ Dự án xây dựng cơ sở dữ liệu quản lý hệ thống trạm xăng b
 ```
 TASK 3/
 ├── TASK3.sql           # Script SQL chính
+├── TASK3-ERD.png      # Hình ảnh mô tả lược đồ quan hệ của CSDL
 └── README.md          # Tài liệu hướng dẫn
 ```
 
@@ -43,7 +44,6 @@ TASK 3/
 ### 2. Chạy script cơ sở dữ liệu
 ```sql
 -- Kết nối Oracle và chạy file TASK3.sql
-@"d:\CODE FILES\SHUB\TASK 3\TASK3.sql"
 ```
 
 ### 3. Các bước thực hiện trong script:
@@ -80,11 +80,3 @@ TASK 3/
 - Sử dụng `TRUNC()` để nhóm theo ngày
 - `FETCH FIRST n ROWS ONLY` cho limit kết quả
 - Kiểu dữ liệu `NVARCHAR2` hỗ trợ Unicode
-
-## Mở rộng
-
-Có thể phát triển thêm:
-- Giao diện web/desktop để quản lý
-- API REST cho tích hợp hệ thống
-- Báo cáo Excel export
-- Thống kê nâng cao theo tháng/năm
